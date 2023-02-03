@@ -1,0 +1,33 @@
+.submitted {
+  display: flex;
+  flex-direction: column;
+  width: 415px;
+  height: 415px;
+  background-image: radial-gradient(at top, #1f262e, #171e28);
+  padding: 38px;
+  border-radius: 30px;
+  gap: 30px;
+  align-items: center;
+}
+
+.submitted--rank {
+  font-size: 14px;
+  color: hsl(25, 97%, 53%);
+  background-color: #272e36;
+  border-style: none;
+  border-radius: 9999999999px;
+  padding: 8px 15px;
+  text-align: center;
+  width: fit-content;
+}
+
+.submitted-thanks {
+  color: white;
+  font-size: 28px;
+}
+
+.submitted-description {
+  color: rgb(124, 135, 152);
+  font-size: 15px;
+  text-align: center;
+}
