@@ -1,10 +1,9 @@
-import Rating from './components/Rating';
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
-    <div className='App'>
-      <Rating />
+    <div className="App">
+      <Rating className={sytle.grid} />
     </div>
   );
 }
