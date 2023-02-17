@@ -1,0 +1,18 @@
+.summary {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  width: 100%;
+  padding: 30px;
+}
+
+button {
+  border: none;
+  border-radius: 99999px;
+  padding: 20px;
+  background-color: #303b59;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 20px;
+}

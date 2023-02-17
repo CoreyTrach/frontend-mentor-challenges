@@ -1,0 +1,57 @@
+.details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.details--title {
+  display: flex;
+  gap: 15px;
+  font-weight: 500;
+  font-size: 15px;
+  align-items: center;
+}
+
+img {
+  height: 20px;
+}
+
+.details--score {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+}
+
+.details--score span:first-child {
+  color: black;
+  font-weight: 700;
+}
+
+.details--score span:last-child {
+  color: gray;
+  font-weight: 700;
+}
+
+.red {
+  color: #ff5555;
+  background-color: #ffe5e1;
+}
+
+.orange {
+  color: #ffb21e;
+  background-color: #fff2dc;
+}
+
+.green {
+  color: #00bb8f;
+  background-color: #e0f4ec;
+}
+
+.blue {
+  color: #1125d6;
+  background-color: #fbd9fe;
+}
