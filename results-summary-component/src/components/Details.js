@@ -19,7 +19,7 @@ const Details = ({ title, score, color }) => {
   return (
     <div className={`details ${color}`}>
       <div className="details--title">
-        <img src={Icon} />
+        <img src={Icon} alt={title} />
         <p className={color}>{title}</p>
       </div>
       <div className="details--score">
