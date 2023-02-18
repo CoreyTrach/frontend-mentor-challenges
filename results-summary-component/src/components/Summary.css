@@ -16,3 +16,12 @@ button {
   font-weight: 700;
   margin-top: 20px;
 }
+
+button:hover {
+  background: linear-gradient(
+    180deg,
+    rgba(103, 67, 255, 1) 0%,
+    rgba(56, 48, 193, 1) 100%
+  );
+  color: white;
+}

@@ -3,25 +3,64 @@
   flex-direction: column;
   width: 350px;
   height: 595px;
-  align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   background-color: #15273f;
   padding: 20px;
   border-radius: 15px;
 }
 
 .card--image {
+  position: relative;
   width: 100%;
+  height: auto;
+  background-color: transparent;
+}
+
+.card--image-nft {
+  width: 100%;
+  display: block;
   border-radius: 10px;
+}
+
+.card--image-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  background-color: #1be5e5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card--image-overlay > img {
+  height: 50px;
+  background-color: transparent;
+}
+
+.card--image:hover .card--image-overlay {
+  opacity: 0.5;
+}
+
+.card--imagehover .card--image-overlay > div {
+  opacity: 1;
+  background-color: transparent;
 }
 
 .card--title {
   color: white;
+  background-color: #15273f;
+  margin-top: 30px;
 }
 
 .card--description {
   color: hsl(215, 51%, 70%);
   background-color: #15273f;
+  margin-top: 20px;
 }
 
 .card--details {
@@ -30,6 +69,7 @@
   justify-content: space-between;
   align-items: center;
   background-color: #15273f;
+  margin-top: 30px;
 }
 
 .card--details-eth {
@@ -64,4 +104,36 @@
 .card--details-time > span {
   background-color: #15273f;
   color: hsl(215, 51%, 70%);
+}
+
+.card--line {
+  height: 1px;
+  background: hsla(215, 51%, 70%, 30%);
+  margin-top: 20px;
+}
+
+.card--author {
+  display: flex;
+  width: 100%;
+  justify-content: left;
+  align-items: center;
+  background-color: #15273f;
+  margin-top: 15px;
+}
+
+.card--author > img {
+  height: 34px;
+  margin-right: 10px;
+  background-color: #15273f;
+}
+
+.card--author-text1 {
+  color: hsl(215, 51%, 70%);
+  background-color: #15273f;
+  margin-right: 4px;
+}
+
+.card--author-text2 {
+  color: white;
+  background-color: #15273f;
 }

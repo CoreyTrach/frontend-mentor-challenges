@@ -14,6 +14,14 @@
   padding: 20px 60px;
 }
 
+@media (min-width: 750px) {
+  .score {
+    height: auto;
+    border-radius: 30px;
+    flex: 0 0 50%;
+  }
+}
+
 .score--title {
   color: hsl(241, 100%, 89%);
 }

@@ -1,6 +1,31 @@
 .App {
   display: flex;
-  flex: 1 1 auto;
+  justify-content: center;
+}
+
+.backplate {
+  display: flex;
+  flex: 0 0 375px;
+  max-width: 375px;
   flex-direction: column;
-  align-items: center;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+@media (min-width: 750px) {
+  .App {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .backplate {
+    flex-direction: row;
+    border-radius: 30px;
+    flex: 1;
+    max-width: 740px;
+  }
 }

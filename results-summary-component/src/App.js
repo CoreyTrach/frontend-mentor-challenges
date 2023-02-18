@@ -5,8 +5,10 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <Score />
-      <Summary />
+      <div className="backplate">
+        <Score />
+        <Summary />
+      </div>
     </div>
   );
 }
